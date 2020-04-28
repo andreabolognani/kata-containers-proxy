@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 export tests_repo="${tests_repo:-github.com/kata-containers/tests}"
-export tests_repo_dir="$GOPATH/src/$tests_repo"
+export tests_repo_dir="$TRAVIS_BUILD_DIR"
 
 clone_tests_repo()
 {
