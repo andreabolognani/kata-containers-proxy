@@ -1,0 +1,16 @@
+# github.com/davecgh/go-spew v1.1.0
+github.com/davecgh/go-spew/spew
+# github.com/hashicorp/yamux v0.0.0-20171005170212-f5742cb6b856
+github.com/hashicorp/yamux
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/sirupsen/logrus v1.0.4
+github.com/sirupsen/logrus
+github.com/sirupsen/logrus/hooks/syslog
+# github.com/stretchr/testify v1.2.1
+github.com/stretchr/testify/assert
+# golang.org/x/crypto v0.0.0-20180112200814-13931e22f9e7
+golang.org/x/crypto/ssh/terminal
+# golang.org/x/sys v0.0.0-20180110071738-810d70003458
+golang.org/x/sys/unix
+golang.org/x/sys/windows
