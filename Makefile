@@ -33,7 +33,7 @@ ifeq ($(STRIP),yes)
 endif
 
 $(TARGET): $(SOURCES) $(VERSION_FILE)
-	go build $(BUILDFLAGS) -o $@ -ldflags "-X main.version=$(VERSION_COMMIT) $(KATA_LDFLAGS)"
+	GO111MODULE=on go build -mod=vendor $(BUILDFLAGS) -o $@ -ldflags "-X main.version=$(VERSION_COMMIT) $(KATA_LDFLAGS)"
 
 test:
 	bash .ci/go-test.sh
